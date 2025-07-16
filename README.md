@@ -1,28 +1,84 @@
-
 # 🕵️‍♂️ Bug Bounty Tech & CVE Scanner
 
-🚩 **Created by Cyb3rGu4rd14n5-T**
-
-## 📌 About this Tool
-
-This is a simple, beginner-friendly Python tool designed **for educational purposes only** to help new bug bounty hunters and student security researchers.
-
-🔍 It fingerprints website technologies, checks for outdated versions & known CVEs, and generates a detailed email template to help you report vulnerabilities responsibly.
-
-✨ **Why is this tool useful for beginners?**
-
-- ✅ Easy to run on any laptop or even on a mobile device with Termux!
-- ✅ Great for college students to check their college websites or any public website for outdated tech.
-- ✅ If you find issues, you can **report them responsibly** and earn **appreciation or acknowledgment letters** from your college, university, or government.
-- ✅ The tool even provides a ready-to-copy email template to contact site admins — no more guessing how to write a report!
+**Created by: Cyb3rGu4rd14n5-T**
 
 ---
 
-## ⚙️ Requirements
+## 📌 What is this tool?
 
-- Python 3.x installed on your PC or mobile (Termux works too!)
-- A free Vulners API key (put it in your `scanner.py` file)
+This is a simple **bug bounty helper tool** for beginners!  
+It scans any website URL for:
+- Server & tech stack (like Apache, PHP, WordPress, etc.)
+- Checks for known CVEs (Common Vulnerabilities & Exposures)
+- Generates a clear email template to help you report responsibly.
 
-Install dependencies:
-```bash
+---
+
+## 🎓 Who is this for?
+
+This tool is designed for:
+- Students learning cybersecurity
+- Beginner bug bounty hunters
+- Ethical hackers wanting to practice finding outdated technologies
+
+**Example:**  
+👉 You can scan your college website, find outdated plugins, generate a report, and send it to your IT team for appreciation & acknowledgment.  
+It runs on **Termux**, so you can even scan from your **Android phone!**
+
+---
+
+## ⚡ How to use 
+# Clone the repo
+
+
+git clone https://github.com/YourUsername/bugbounty-tech-cve-scanner.git
+
+
+cd bugbounty-tech-cve-scanner
+
+
+
+# Install requirements
 pip install -r requirements.txt
+
+
+
+# Run the tool
+python3 scanner.py
+
+
+Follow the prompts:
+
+Enter the website URL.
+
+Choose if you want to save results.
+
+Optionally generate a detailed email report.
+
+
+⚠️ Important Note about API Key
+This tool uses the free Vulners API to check for CVEs.
+Your included API key may expire or reach usage limits!
+
+
+👉 How to get your own:
+Sign up at https://vulners.com
+
+
+Get your free API key in your dashboard.
+
+
+Open scanner.py and replace this line:
+
+python
+
+VULNERS_API_KEY = 'YOUR_NEW_API_KEY'
+
+
+
+✅ Disclaimer
+For educational & ethical use only!
+
+Always have permission before scanning websites.
+
+Use responsibly to help secure systems & learn.
