@@ -30,11 +30,10 @@ It runs on **Termux**, so you can even scan from your **Android phone!**
 ## ⚡ How to use
 
 Clone the repo:
-
- git clone https://github.com/YourUsername/bugbounty-tech-cve-scanner.git
+https://github.com/Cyb3rGu4rd14n5-T/bug-bounty-tech-scanner.git
 
  
- cd bugbounty-tech-cve-scanner
+ cd bug-bounty-tech-scanner.git
 
 
 
@@ -42,9 +41,13 @@ Install requirements:
 
 
 pip install -r requirements.txt
+
+
 Run the tool:
 
 python3 scanner.py
+
+
 Follow the prompts:
 
 Enter the website URL.
