@@ -27,26 +27,24 @@ It runs on **Termux**, so you can even scan from your **Android phone!**
 
 ---
 
-## ⚡ How to use 
-# Clone the repo
+## ⚡ How to use
+
+Clone the repo:
+
+ git clone https://github.com/YourUsername/bugbounty-tech-cve-scanner.git
+
+ 
+ cd bugbounty-tech-cve-scanner
 
 
-git clone https://github.com/YourUsername/bugbounty-tech-cve-scanner.git
+
+Install requirements:
 
 
-cd bugbounty-tech-cve-scanner
-
-
-
-# Install requirements
 pip install -r requirements.txt
+Run the tool:
 
-
-
-# Run the tool
 python3 scanner.py
-
-
 Follow the prompts:
 
 Enter the website URL.
@@ -56,17 +54,17 @@ Choose if you want to save results.
 Optionally generate a detailed email report.
 
 
+
 ⚠️ Important Note about API Key
 This tool uses the free Vulners API to check for CVEs.
 Your included API key may expire or reach usage limits!
 
 
+
 👉 How to get your own:
 Sign up at https://vulners.com
 
-
 Get your free API key in your dashboard.
-
 
 Open scanner.py and replace this line:
 
